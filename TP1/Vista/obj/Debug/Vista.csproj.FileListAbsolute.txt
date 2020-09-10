@@ -1,0 +1,13 @@
+C:\tp_laboratorio_2\TP1\Vista\obj\Debug\Vista.csprojAssemblyReference.cache
+C:\tp_laboratorio_2\TP1\Vista\obj\Debug\Vista.PrincipalForm.resources
+C:\tp_laboratorio_2\TP1\Vista\obj\Debug\Vista.Properties.Resources.resources
+C:\tp_laboratorio_2\TP1\Vista\obj\Debug\Vista.PrincipalForm.es-AR.resources
+C:\tp_laboratorio_2\TP1\Vista\obj\Debug\Vista.csproj.GenerateResource.cache
+C:\tp_laboratorio_2\TP1\Vista\obj\Debug\Vista.csproj.CoreCompileInputs.cache
+C:\tp_laboratorio_2\TP1\Vista\bin\Debug\Vista.exe.config
+C:\tp_laboratorio_2\TP1\Vista\bin\Debug\Vista.exe
+C:\tp_laboratorio_2\TP1\Vista\bin\Debug\Vista.pdb
+C:\tp_laboratorio_2\TP1\Vista\bin\Debug\es-AR\Vista.resources.dll
+C:\tp_laboratorio_2\TP1\Vista\obj\Debug\es-AR\Vista.resources.dll
+C:\tp_laboratorio_2\TP1\Vista\obj\Debug\Vista.exe
+C:\tp_laboratorio_2\TP1\Vista\obj\Debug\Vista.pdb

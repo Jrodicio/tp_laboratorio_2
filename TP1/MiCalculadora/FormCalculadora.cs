@@ -22,7 +22,11 @@ namespace MiCalculadora
         {
 
         }
-
+        /// <summary>
+        /// Acción de cierre de Form al presionar botón "Cerrar"
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             if(MessageBox.Show("¿Seguro que desea salir?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.Yes)
@@ -39,7 +43,7 @@ namespace MiCalculadora
         {
             this.txtNumero1.Text = "";
             this.txtNumero2.Text = "";
-            this.cmbOperador.Text = "";
+            this.cmbOperador.Text = "+";
             this.lblResultado.Text = "0";
         }
         /// <summary>
@@ -67,7 +71,12 @@ namespace MiCalculadora
             string numero2 = this.txtNumero2.Text;
             string operador = this.cmbOperador.Text;
 
-            this.lblResultado.Text = Operar(numero1, numero2, operador).ToString();
+            if (operador == "")
+            {
+                MessageBox.Show("Debe ingresar un operando para realizar el cálculo.", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            this.lblResultado.Text = Operar(numero1, numero2, operador).ToString("N3");
         }
         /// <summary>
         /// Intentará convertir el valor de lblResultado a binario.

@@ -76,7 +76,7 @@ namespace MiCalculadora
                 MessageBox.Show("Debe ingresar un operando para realizar el cálculo.", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
-            this.lblResultado.Text = Operar(numero1, numero2, operador).ToString("N3");
+            this.lblResultado.Text = Operar(numero1, numero2, operador).ToString("N4");
         }
         /// <summary>
         /// Intentará convertir el valor de lblResultado a binario.
@@ -85,8 +85,16 @@ namespace MiCalculadora
         /// <param name="e"></param>
         private void btnConvertirABinario_Click(object sender, EventArgs e)
         {
-            string resultado = this.lblResultado.Text;
-            this.lblResultado.Text = Numero.DecimalBinario(resultado);
+            string oldResultado = this.lblResultado.Text;
+            string newResultado = Numero.DecimalBinario(oldResultado);
+            if (newResultado == oldResultado)
+            {
+                MessageBox.Show("El número ya es binario.", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                this.lblResultado.Text = newResultado;
+            }
         }
         /// <summary>
         /// Intentará convertir el valor de lblResultado a decimal.
@@ -95,8 +103,17 @@ namespace MiCalculadora
         /// <param name="e"></param>
         private void btnConvertADecimal_Click(object sender, EventArgs e)
         {
-            string resultado = this.lblResultado.Text;
-            this.lblResultado.Text = Numero.BinarioDecimal(resultado);
+            string oldResultado = this.lblResultado.Text;
+            string newResultado = Numero.BinarioDecimal(oldResultado);
+
+            if (newResultado == oldResultado)
+            {
+                MessageBox.Show("El número ya es decimal.", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                this.lblResultado.Text = newResultado;
+            }
         }
     }
 }

@@ -71,7 +71,7 @@ namespace Entidades
         {
             char[] auxArrayBinario = new char[binario.Length];
             bool retorno = true;
-
+            
             auxArrayBinario = binario.Trim().ToCharArray();
 
             foreach (char charNumero in auxArrayBinario)
@@ -95,7 +95,7 @@ namespace Entidades
         {
             string resultado = binario;
             
-            if (EsBinario(binario))
+           if (EsBinario(binario))
             {
                 /* El objetivo es acumular el resultado de 2^potencia*binario[i]. 
                  * Se contaba con funciones que hacían este proceso en Math pero solo con Int32.
@@ -103,13 +103,13 @@ namespace Entidades
                 */
                 double acumulador = 0d;
                 int potencia = (binario.Length) - 1;
-                binario = binario.Replace(',','\0').Replace('.','\0');
+                
                 for (int i = 0; i <= potencia; i++)
                 {
                     acumulador += Math.Pow(2,potencia-i)*double.Parse(binario[i].ToString());
                 }
 
-                resultado = acumulador.ToString("N3");
+                resultado = acumulador.ToString("N4");
             }
             return resultado;
         }
@@ -151,7 +151,15 @@ namespace Entidades
             string retorno = "Valor inválido";
             if (double.TryParse(numero,out doubleNumero))
             {
-                retorno = DecimalBinario(doubleNumero);
+                if (EsBinario(numero))
+                {
+                    retorno = numero;
+                }
+                else
+                {
+                    retorno = DecimalBinario(doubleNumero);
+                }
+                
             }
             return retorno;
         }

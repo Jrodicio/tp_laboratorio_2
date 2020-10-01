@@ -8,14 +8,15 @@ namespace Entidades
 {
     public class Numero
     {
-        /*  Atributos   */
+        #region Atributos
 
         /// <summary>
         /// Numero double
         /// </summary>
         private double numero;
+        #endregion
 
-        /*  Setters  */
+        #region Propiedades
 
         /// <summary>
         /// Setter de valor this.numero
@@ -27,15 +28,16 @@ namespace Entidades
                 this.numero = ValidarNumero(value.Trim());
             }
         }
+        #endregion
 
-        /*  Constructores   */
+        #region Constructores
 
         /// <summary>
-        /// Constructor default de Numero.
+        /// Por default, número es 0.
         /// </summary>
         public Numero()
+            :this(0)
         {
-            this.numero = 0;
         }
 
         /// <summary>
@@ -55,9 +57,10 @@ namespace Entidades
         {
             this.SetNumero = numero;
         }
+        #endregion
 
+        #region Métodos varios
 
-        /*  Métodos */
         /// <summary>
         /// Valida si el número es válido
         /// </summary>
@@ -134,7 +137,7 @@ namespace Entidades
         public static string DecimalBinario(double numero)
         {
             double numeroAbsoluto = Math.Abs(numero);
-            string stringBinario = "0";
+            string stringBinario = "";
             
             while (numeroAbsoluto >= 1)
             {
@@ -142,7 +145,10 @@ namespace Entidades
                 stringBinario = (Math.Truncate(numeroAbsoluto % 2)).ToString()+stringBinario;
                 numeroAbsoluto /= 2;
             }
-
+            if (stringBinario.Length == 0)
+            {
+                stringBinario = "0";
+            }
             return stringBinario;
         }
 
@@ -161,8 +167,9 @@ namespace Entidades
             }
             return retorno;
         }
+        #endregion
 
-        /*  Sobrecarga de operadores    */
+        #region Sobrecarga operadores
 
         /// <summary>
         /// Realiza la resta entre dos datos tipo Numero.
@@ -212,6 +219,6 @@ namespace Entidades
             }
             return resultado;
         }
-
+        #endregion
     }
 }

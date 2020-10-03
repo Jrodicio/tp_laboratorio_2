@@ -1,6 +1,6 @@
 ﻿namespace MiCalculadora
 {
-    partial class LaCalculadora
+    partial class FormCalculadora
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LaCalculadora));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCalculadora));
             this.txtNumero1 = new System.Windows.Forms.TextBox();
             this.lblResultado = new System.Windows.Forms.Label();
             this.cmbOperador = new System.Windows.Forms.ComboBox();
@@ -181,7 +181,7 @@
             this.btnConvertADecimal.UseVisualStyleBackColor = false;
             this.btnConvertADecimal.Click += new System.EventHandler(this.btnConvertADecimal_Click);
             // 
-            // LaCalculadora
+            // FormCalculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -203,10 +203,11 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "LaCalculadora";
+            this.Name = "FormCalculadora";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora de Julián Rodicio del curso 2°C";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormCalculadora_FormClosing);
             this.Load += new System.EventHandler(this.FormCalculadora_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

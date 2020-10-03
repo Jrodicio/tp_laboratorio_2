@@ -8,7 +8,14 @@ namespace Entidades
 {
     public class Numero
     {
+        /*  Atributos   */
+
+        /// <summary>
+        /// Numero double
+        /// </summary>
         private double numero;
+
+        /*  Setters  */
 
         /// <summary>
         /// Setter de valor this.numero
@@ -21,12 +28,14 @@ namespace Entidades
             }
         }
 
+        /*  Constructores   */
+
         /// <summary>
         /// Constructor default de Numero.
         /// </summary>
         public Numero()
         {
-            new Numero("0");
+            this.numero = 0;
         }
 
         /// <summary>
@@ -35,7 +44,7 @@ namespace Entidades
         /// <param name="numero">Número</param>
         public Numero(double numero)
         {
-            new Numero(numero.ToString());
+            this.numero = numero;
         }
 
         /// <summary>
@@ -47,6 +56,8 @@ namespace Entidades
             this.SetNumero = numero;
         }
 
+
+        /*  Métodos */
         /// <summary>
         /// Valida si el número es válido
         /// </summary>
@@ -69,10 +80,8 @@ namespace Entidades
         /// <returns>True: Binario. False: No binario</returns>
         private static bool EsBinario (string binario)
         {
-            char[] auxArrayBinario = new char[binario.Length];
             bool retorno = true;
-            
-            auxArrayBinario = binario.Trim().ToCharArray();
+            char[] auxArrayBinario = binario.Trim().ToCharArray();
 
             foreach (char charNumero in auxArrayBinario)
             {
@@ -95,15 +104,17 @@ namespace Entidades
         {
             string resultado = binario;
             
-           if (EsBinario(binario))
+            if (EsBinario(binario))
             {
-                /* El objetivo es acumular el resultado de 2^potencia*binario[i]. 
-                 * Se contaba con funciones que hacían este proceso en Math pero solo con Int32.
-                 * De esta forma, al utilizar un dato tipo double, ampliamos el rango de resultados.
-                */
                 double acumulador = 0d;
                 int potencia = (binario.Length) - 1;
                 
+                /* 
+                 * El objetivo es acumular el resultado de 2^potencia*binario[i]. 
+                 * Se contaba con funciones que hacían este proceso en Math pero solo con Int32.
+                 * De esta forma, al utilizar un dato tipo double, ampliamos el rango de resultados.
+                */
+
                 for (int i = 0; i <= potencia; i++)
                 {
                     acumulador += Math.Pow(2,potencia-i)*double.Parse(binario[i].ToString());
@@ -111,6 +122,7 @@ namespace Entidades
 
                 resultado = acumulador.ToString("N4");
             }
+
             return resultado;
         }
 
@@ -122,18 +134,13 @@ namespace Entidades
         public static string DecimalBinario(double numero)
         {
             double numeroAbsoluto = Math.Abs(numero);
-            string stringBinario = "";
+            string stringBinario = "0";
             
             while (numeroAbsoluto >= 1)
             {
                 //Utilizamos una variable string para ir alojando los 1 y 0, de forma tal que no tengamos limitaciones de los tipo de datos númericos.
                 stringBinario = (Math.Truncate(numeroAbsoluto % 2)).ToString()+stringBinario;
                 numeroAbsoluto /= 2;
-            }
-            
-            if (stringBinario.Length == 0)
-            {
-                stringBinario = "0";
             }
 
             return stringBinario;
@@ -146,23 +153,16 @@ namespace Entidades
         /// <returns>ERROR: Valor inválido; OK: String binario</returns>
         public static string DecimalBinario(string numero)
         {
-            double doubleNumero;
 
             string retorno = "Valor inválido";
-            if (double.TryParse(numero,out doubleNumero))
+            if (double.TryParse(numero,out double doubleNumero) && !EsBinario(numero))
             {
-                if (EsBinario(numero))
-                {
-                    retorno = numero;
-                }
-                else
-                {
-                    retorno = DecimalBinario(doubleNumero);
-                }
-                
+                retorno = DecimalBinario(doubleNumero);
             }
             return retorno;
         }
+
+        /*  Sobrecarga de operadores    */
 
         /// <summary>
         /// Realiza la resta entre dos datos tipo Numero.
@@ -181,7 +181,7 @@ namespace Entidades
         /// <param name="n1">Numero 1</param>
         /// <param name="n2">Numero 2</param>
         /// <returns>n1 + n2</returns>
-        public static double operator +(Numero n1, Numero n2)
+        public static double operator + (Numero n1, Numero n2)
         {
             return n1.numero + n2.numero;
         }
@@ -192,7 +192,7 @@ namespace Entidades
         /// <param name="n1">Numero 1</param>
         /// <param name="n2">Numero 2</param>
         /// <returns>n1 * n2</returns>
-        public static double operator *(Numero n1, Numero n2)
+        public static double operator * (Numero n1, Numero n2)
         {
             return n1.numero * n2.numero;
         }
@@ -203,7 +203,7 @@ namespace Entidades
         /// <param name="n1">Dividendo</param>
         /// <param name="n2">Divisor</param>
         /// <returns>Si n2 es 0, retorna 0. Sino, retorna n1/n2</returns>
-        public static double operator /(Numero n1, Numero n2)
+        public static double operator / (Numero n1, Numero n2)
         {
             double resultado = double.MinValue;
             if (n2.numero != 0)

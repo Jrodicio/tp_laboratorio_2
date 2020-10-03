@@ -17,7 +17,7 @@ namespace TP_02_2018
             Console.SetWindowSize(Console.LargestWindowWidth / 2, Console.LargestWindowHeight - 2);
 
             // Nombre del alumno
-            Console.Title = "";
+            Console.Title = "TP2 - Julián Rodicio - 2°C";
 
             Taller taller = new Taller(6);
 

@@ -33,28 +33,25 @@ namespace Entidades
         /// <param name="num2">Numero 2do operando</param>
         /// <param name="operador">Operador</param>
         /// <returns>OK: Resultado; ERROR: 0</returns>
-        public static double Operar(Numero num1, Numero num2, string operador)
+        public static double Operar(Numero num1, Numero num2, char operador)
         {
             double resultado = 0;
-            char charOperador;
-            if (char.TryParse(operador.Trim(), out charOperador))
+            switch (ValidarOperador(operador))
             {
-                switch (ValidarOperador(charOperador))
-                {
-                    case "*":
-                        resultado = num1 * num2;
-                        break;
-                    case "/":
-                        resultado = num1 / num2;
-                        break;
-                    case "-":
-                        resultado = num1 - num2;
-                        break;
-                    case "+":
-                        resultado = num1 + num2;
-                        break;
-                }
+                case "*":
+                    resultado = num1 * num2;
+                    break;
+                case "/":
+                    resultado = num1 / num2;
+                    break;
+                case "-":
+                    resultado = num1 - num2;
+                    break;
+                case "+":
+                    resultado = num1 + num2;
+                    break;
             }
+
             return resultado;
         }
     }

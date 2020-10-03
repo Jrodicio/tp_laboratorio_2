@@ -112,12 +112,6 @@ namespace Entidades
                 double acumulador = 0d;
                 int potencia = (binario.Length) - 1;
                 
-                /* 
-                 * El objetivo es acumular el resultado de 2^potencia*binario[i]. 
-                 * Se contaba con funciones que hacían este proceso en Math pero solo con Int32.
-                 * De esta forma, al utilizar un dato tipo double, ampliamos el rango de resultados.
-                */
-
                 for (int i = 0; i <= potencia; i++)
                 {
                     acumulador += Math.Pow(2,potencia-i)*double.Parse(binario[i].ToString());
@@ -141,7 +135,6 @@ namespace Entidades
             
             while (numeroAbsoluto >= 1)
             {
-                //Utilizamos una variable string para ir alojando los 1 y 0, de forma tal que no tengamos limitaciones de los tipo de datos númericos.
                 stringBinario = (Math.Truncate(numeroAbsoluto % 2)).ToString()+stringBinario;
                 numeroAbsoluto /= 2;
             }

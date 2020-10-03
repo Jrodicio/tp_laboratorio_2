@@ -8,12 +8,9 @@ namespace Entidades
 {
     public class Suv : Vehiculo
     {
-        public Suv(EMarca marca, string chasis, ConsoleColor color)
-            : base(chasis, marca, color)
-        {
-        }
+        #region Propiedades
         /// <summary>
-        /// SUV son 'Grande'
+        /// Los SUV son "Grande".
         /// </summary>
         protected override ETamanio Tamanio
         {
@@ -22,18 +19,41 @@ namespace Entidades
                 return ETamanio.Grande;
             }
         }
+        #endregion
 
+        #region Métodos
+
+        #region Constructor
+        /// <summary>
+        /// Constructor de Vehiculo.SUV
+        /// </summary>
+        /// <param name="marca">Marca de SUV</param>
+        /// <param name="chasis">Chasis de SUV</param>
+        /// <param name="color">Color de SUV</param>
+        public Suv(EMarca marca, string chasis, ConsoleColor color)
+            : base(chasis, marca, color)
+        {
+        }
+        #endregion
+
+
+        /// <summary>
+        /// Muestra los datos de un SUV
+        /// </summary>
+        /// <returns>String con los datos del SUV</returns>
         public override sealed string Mostrar()
         {
-            StringBuilder sb = new StringBuilder();
+            StringBuilder stringBuilder = new StringBuilder();
 
-            sb.AppendLine("SUV");
-            sb.AppendLine(base.Mostrar());
-            sb.AppendFormat("TAMAÑO : {0}", this.Tamanio);
-            sb.AppendLine("");
-            sb.AppendLine("---------------------");
+            stringBuilder.AppendLine("SUV");
+            stringBuilder.AppendLine(base.Mostrar());
+            stringBuilder.AppendFormat("TAMAÑO : {0}", this.Tamanio);
+            stringBuilder.AppendLine("");
+            stringBuilder.AppendLine("---------------------");
 
-            return sb.ToString();
+            return stringBuilder.ToString();
         }
+
+        #endregion
     }
 }

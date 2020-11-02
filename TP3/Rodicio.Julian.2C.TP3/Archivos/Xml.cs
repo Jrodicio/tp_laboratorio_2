@@ -53,19 +53,27 @@ namespace Archivos
         bool IArchivo<T>.Leer(string archivo, out T datos)
         {
             bool retorno = false;
+            TextReader xml = null;
             try
             {
                 XmlSerializer serializer = new XmlSerializer(typeof(T));
-                TextReader texto = new StreamReader(archivo);
-                datos = (T)serializer.Deserialize(texto);
-                texto.Close();
-
+                xml = new StreamReader(archivo);
+                datos = (T)serializer.Deserialize(xml);
+                
                 retorno = true;
             }
             catch (Exception e)
             {
                 datos = default(T);
                 throw new ArchivosException(e);
+            }
+            finally
+            {
+                if (xml != null)
+                {
+                    xml.Close();
+                }
+                
             }
 
             return retorno;

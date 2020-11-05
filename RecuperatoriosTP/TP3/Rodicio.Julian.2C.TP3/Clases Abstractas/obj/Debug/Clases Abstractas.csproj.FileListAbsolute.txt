@@ -1,0 +1,9 @@
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\Clases Abstractas\bin\Debug\Clases Abstractas.dll
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\Clases Abstractas\bin\Debug\Clases Abstractas.pdb
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\Clases Abstractas\bin\Debug\Excepciones.dll
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\Clases Abstractas\bin\Debug\Excepciones.pdb
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csprojAssemblyReference.cache
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csproj.CoreCompileInputs.cache
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csproj.CopyComplete
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.dll
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.pdb

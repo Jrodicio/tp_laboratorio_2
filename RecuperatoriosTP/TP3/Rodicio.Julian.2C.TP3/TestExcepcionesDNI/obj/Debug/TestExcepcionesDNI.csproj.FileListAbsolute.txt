@@ -1,0 +1,50 @@
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\TestExcepcionesDNI.dll
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\TestExcepcionesDNI.pdb
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Clases Abstractas.dll
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Clases Instanciables.dll
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Excepciones.dll
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Archivos.dll
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Clases Abstractas.pdb
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Clases Instanciables.pdb
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Excepciones.pdb
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Archivos.pdb
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\obj\Debug\TestExcepcionesDNI.csprojAssemblyReference.cache
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\obj\Debug\TestExcepcionesDNI.csproj.CoreCompileInputs.cache
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\obj\Debug\TestExcepcionesDNI.csproj.CopyComplete
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\obj\Debug\TestExcepcionesDNI.dll
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\obj\Debug\TestExcepcionesDNI.pdb
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\TestExcepcionesDNI.dll
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\TestExcepcionesDNI.pdb
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Clases Abstractas.dll
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Clases Instanciables.dll
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Excepciones.dll
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Archivos.dll
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Clases Abstractas.pdb
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Clases Instanciables.pdb
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Excepciones.pdb
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\bin\Debug\Archivos.pdb
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\obj\Debug\TestExcepcionesDNI.csprojAssemblyReference.cache
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\obj\Debug\TestExcepcionesDNI.csproj.CoreCompileInputs.cache
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\obj\Debug\TestExcepcionesDNI.csproj.CopyComplete
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\obj\Debug\TestExcepcionesDNI.dll
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\TestExcepcionesDNI\obj\Debug\TestExcepcionesDNI.pdb

@@ -1,0 +1,32 @@
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\bin\Debug\ConsolaTP3.exe.config
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\bin\Debug\ConsolaTP3.exe
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\bin\Debug\ConsolaTP3.pdb
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\bin\Debug\Excepciones.dll
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\bin\Debug\Excepciones.pdb
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\obj\Debug\ConsolaTP3.csprojAssemblyReference.cache
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\obj\Debug\ConsolaTP3.csproj.CoreCompileInputs.cache
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\obj\Debug\ConsolaTP3.csproj.CopyComplete
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\obj\Debug\ConsolaTP3.exe
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\obj\Debug\ConsolaTP3.pdb
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\bin\Debug\Archivos.dll
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\bin\Debug\Clases Abstractas.dll
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\bin\Debug\Clases Instanciables.dll
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\bin\Debug\Archivos.pdb
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\bin\Debug\Clases Abstractas.pdb
+C:\tp_laboratorio_2\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\bin\Debug\Clases Instanciables.pdb
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\bin\Debug\ConsolaTP3.exe.config
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\bin\Debug\ConsolaTP3.exe
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\bin\Debug\ConsolaTP3.pdb
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\bin\Debug\Archivos.dll
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\bin\Debug\Clases Abstractas.dll
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\bin\Debug\Clases Instanciables.dll
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\bin\Debug\Excepciones.dll
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\bin\Debug\Archivos.pdb
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\bin\Debug\Clases Abstractas.pdb
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\bin\Debug\Clases Instanciables.pdb
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\bin\Debug\Excepciones.pdb
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\obj\Debug\ConsolaTP3.csprojAssemblyReference.cache
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\obj\Debug\ConsolaTP3.csproj.CoreCompileInputs.cache
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\obj\Debug\ConsolaTP3.csproj.CopyComplete
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\obj\Debug\ConsolaTP3.exe
+C:\tp_laboratorio_2\RecuperatoriosTP\TP3\Rodicio.Julian.2C.TP3\ConsolaTP3\obj\Debug\ConsolaTP3.pdb

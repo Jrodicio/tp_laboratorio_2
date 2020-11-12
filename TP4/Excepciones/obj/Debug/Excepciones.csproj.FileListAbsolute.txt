@@ -1,0 +1,6 @@
+C:\tp_laboratorio_2\TP4\Excepciones\bin\Debug\Excepciones.dll
+C:\tp_laboratorio_2\TP4\Excepciones\bin\Debug\Excepciones.pdb
+C:\tp_laboratorio_2\TP4\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\tp_laboratorio_2\TP4\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\tp_laboratorio_2\TP4\Excepciones\obj\Debug\Excepciones.dll
+C:\tp_laboratorio_2\TP4\Excepciones\obj\Debug\Excepciones.pdb

@@ -1,0 +1,10 @@
+C:\tp_laboratorio_2\TP4\LoginForm\bin\Debug\LoginForm.exe.config
+C:\tp_laboratorio_2\TP4\LoginForm\bin\Debug\LoginForm.exe
+C:\tp_laboratorio_2\TP4\LoginForm\bin\Debug\LoginForm.pdb
+C:\tp_laboratorio_2\TP4\LoginForm\obj\Debug\LoginForm.csprojAssemblyReference.cache
+C:\tp_laboratorio_2\TP4\LoginForm\obj\Debug\LoginForm.LoginForm.resources
+C:\tp_laboratorio_2\TP4\LoginForm\obj\Debug\LoginForm.Properties.Resources.resources
+C:\tp_laboratorio_2\TP4\LoginForm\obj\Debug\LoginForm.csproj.GenerateResource.cache
+C:\tp_laboratorio_2\TP4\LoginForm\obj\Debug\LoginForm.csproj.CoreCompileInputs.cache
+C:\tp_laboratorio_2\TP4\LoginForm\obj\Debug\LoginForm.exe
+C:\tp_laboratorio_2\TP4\LoginForm\obj\Debug\LoginForm.pdb

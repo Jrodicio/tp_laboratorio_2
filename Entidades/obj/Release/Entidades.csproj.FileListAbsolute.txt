@@ -1,0 +1,9 @@
+C:\tp_laboratorio_2\Entidades\bin\Release\Entidades.dll
+C:\tp_laboratorio_2\Entidades\bin\Release\Entidades.pdb
+C:\tp_laboratorio_2\Entidades\bin\Release\Excepciones.dll
+C:\tp_laboratorio_2\Entidades\bin\Release\Excepciones.pdb
+C:\tp_laboratorio_2\Entidades\obj\Release\Entidades.csprojAssemblyReference.cache
+C:\tp_laboratorio_2\Entidades\obj\Release\Entidades.csproj.CoreCompileInputs.cache
+C:\tp_laboratorio_2\Entidades\obj\Release\Entidades.csproj.CopyComplete
+C:\tp_laboratorio_2\Entidades\obj\Release\Entidades.dll
+C:\tp_laboratorio_2\Entidades\obj\Release\Entidades.pdb

@@ -30,15 +30,16 @@
         {
             this.SuspendLayout();
             // 
-            // PrincipalEmptyForm
+            // BrewingCreatorsPrincipalForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(120, 0);
-            this.Name = "PrincipalEmptyForm";
+            this.Name = "BrewingCreatorsPrincipalForm";
             this.Opacity = 0D;
             this.ShowInTaskbar = false;
             this.Text = "PrincipalEmptyForm";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BrewingCreatorsPrincipalForm_FormClosing);
             this.Load += new System.EventHandler(this.PrincipalEmptyForm_Load);
             this.ResumeLayout(false);
 

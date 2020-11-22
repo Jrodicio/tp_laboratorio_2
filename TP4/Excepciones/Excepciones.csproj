@@ -41,6 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClienteDuplicadoException.cs" />
+    <Compile Include="ErrorArchivoException.cs" />
+    <Compile Include="PrecioInvalidoException.cs" />
+    <Compile Include="ProductoInvalidoException.cs" />
+    <Compile Include="SinVentasException.cs" />
     <Compile Include="UsuarioDuplicadoException.cs" />
     <Compile Include="NombrePersonaException.cs" />
     <Compile Include="UsuarioInexistenteException.cs" />

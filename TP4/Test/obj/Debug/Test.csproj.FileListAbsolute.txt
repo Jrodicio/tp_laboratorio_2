@@ -1,0 +1,14 @@
+C:\tp_laboratorio_2\TP4\Test\bin\Debug\Test.exe.config
+C:\tp_laboratorio_2\TP4\Test\bin\Debug\Test.exe
+C:\tp_laboratorio_2\TP4\Test\bin\Debug\Test.pdb
+C:\tp_laboratorio_2\TP4\Test\bin\Debug\Archivos.dll
+C:\tp_laboratorio_2\TP4\Test\bin\Debug\Entidades.dll
+C:\tp_laboratorio_2\TP4\Test\bin\Debug\Excepciones.dll
+C:\tp_laboratorio_2\TP4\Test\bin\Debug\Entidades.pdb
+C:\tp_laboratorio_2\TP4\Test\bin\Debug\Archivos.pdb
+C:\tp_laboratorio_2\TP4\Test\bin\Debug\Excepciones.pdb
+C:\tp_laboratorio_2\TP4\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\tp_laboratorio_2\TP4\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\tp_laboratorio_2\TP4\Test\obj\Debug\Test.csproj.CopyComplete
+C:\tp_laboratorio_2\TP4\Test\obj\Debug\Test.exe
+C:\tp_laboratorio_2\TP4\Test\obj\Debug\Test.pdb

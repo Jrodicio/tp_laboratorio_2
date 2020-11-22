@@ -9,9 +9,15 @@ namespace Entidades
 {
     public abstract class Persona
     {
+        #region Campos
         private string nombre;
         private string apellido;
+        #endregion
 
+        #region Propiedades
+        /// <summary>
+        /// Setea o retorna nombre de una persona
+        /// </summary>
         public string Nombre
         {
             get
@@ -21,13 +27,16 @@ namespace Entidades
 
             set
             {
-                if (value == this.ValidarNombreApellido(value) && !string.IsNullOrEmpty(value))
+                if (value == Persona.ValidarNombreApellido(value) && !string.IsNullOrEmpty(value))
                 {
                     this.nombre = value;
                 }
             }
         }
 
+        /// <summary>
+        /// Setea o retorna apellido de una persona.
+        /// </summary>
         public string Apellido
         {
             get
@@ -37,30 +46,41 @@ namespace Entidades
 
             set
             {
-                if (value == this.ValidarNombreApellido(value) && !string.IsNullOrEmpty(value))
+                if (value == Persona.ValidarNombreApellido(value) && !string.IsNullOrEmpty(value))
                 {
                     this.apellido = value;
                 }
-
             }
         }
-        
+        #endregion
+
+        #region Métodos
+        /// <summary>
+        /// Constructor de persona con nombre.
+        /// </summary>
+        /// <param name="nombre">Nombre</param>
         public Persona(string nombre)
         {
             this.Nombre = nombre;
         }
+
+        /// <summary>
+        /// Constructor de persona con nombre y apellido.
+        /// </summary>
+        /// <param name="nombre">Nombre</param>
+        /// <param name="apellido">Apellido</param>
         public Persona(string nombre, string apellido)
             : this(nombre)
         {
             this.Apellido = apellido;
         }
 
-        public Persona()
-        {
-
-        }
-
-        private string ValidarNombreApellido(string dato)
+        /// <summary>
+        /// Valida nombre y apellido de una persona no contenga caracteres inválidos.
+        /// </summary>
+        /// <param name="dato">Nombre o apellido</param>
+        /// <returns>Nombre o apellido validado</returns>
+        private static string ValidarNombreApellido(string dato)
         {
             foreach (char caracter in dato)
             {
@@ -71,5 +91,6 @@ namespace Entidades
             }
             return dato;
         }
+        #endregion
     }
 }

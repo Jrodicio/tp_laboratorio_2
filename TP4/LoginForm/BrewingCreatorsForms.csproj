@@ -46,17 +46,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AltaClienteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltaClienteForm.Designer.cs">
+      <DependentUpon>AltaClienteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaProductosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaProductosForm.Designer.cs">
+      <DependentUpon>ListaProductosForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CargarVentaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CargarVentaForm.Designer.cs">
+      <DependentUpon>CargarVentaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrearProductoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearProductoForm.Designer.cs">
+      <DependentUpon>CrearProductoForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="CrearUsuarioForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CrearUsuarioForm.Designer.cs">
       <DependentUpon>CrearUsuarioForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ListaVentas.cs">
+    <Compile Include="ListaVentasForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ListaVentas.Designer.cs">
-      <DependentUpon>ListaVentas.cs</DependentUpon>
+    <Compile Include="ListaVentasForm.Designer.cs">
+      <DependentUpon>ListaVentasForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MenuPrincipalForm.cs">
       <SubType>Form</SubType>
@@ -78,11 +102,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AltaClienteForm.resx">
+      <DependentUpon>AltaClienteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaProductosForm.resx">
+      <DependentUpon>ListaProductosForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CargarVentaForm.resx">
+      <DependentUpon>CargarVentaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearProductoForm.resx">
+      <DependentUpon>CrearProductoForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CrearUsuarioForm.resx">
       <DependentUpon>CrearUsuarioForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ListaVentas.resx">
-      <DependentUpon>ListaVentas.cs</DependentUpon>
+    <EmbeddedResource Include="ListaVentasForm.resx">
+      <DependentUpon>ListaVentasForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
@@ -130,10 +166,44 @@
       <Project>{41ef1a80-7000-494d-92f5-c348bd9fc514}</Project>
       <Name>Entidades</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Archivos\Archivos.csproj">
+      <Project>{feca913b-737f-4c9b-add7-bf1ee929e0c4}</Project>
+      <Name>Archivos</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Excepciones\Excepciones.csproj">
       <Project>{4a4f8ac0-3a01-4f39-8f5d-421915b1c1ab}</Project>
       <Name>Excepciones</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoLight2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoMenu2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconoLight.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo - Claro.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo - Transparente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo1.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -11,7 +11,7 @@ namespace TestExcepcionesPersonas
     public class TestPersonas
     {
         [TestMethod]
-        public void AlumnoRepetido()
+        public void AlumnoRepetidoInvalidoTest()
         {
             try
             {
@@ -28,7 +28,7 @@ namespace TestExcepcionesPersonas
         }
 
         [TestMethod]
-        public void SinProfesor()
+        public void SinProfesorTest()
         {
             try
             {
@@ -43,7 +43,7 @@ namespace TestExcepcionesPersonas
         }
 
         [TestMethod]
-        public void AtributoNull()
+        public void ProfesorNullTest()
         {
             Profesor profesor = new Profesor();
 

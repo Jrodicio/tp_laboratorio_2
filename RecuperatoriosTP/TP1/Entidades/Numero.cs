@@ -21,7 +21,7 @@ namespace Entidades
         /// <summary>
         /// Setter de valor this.numero
         /// </summary>
-        public string SetNumero
+        private string SetNumero
         {
             set
             {
@@ -105,7 +105,7 @@ namespace Entidades
         /// OK: String decimal</returns>
         public static string BinarioDecimal(string binario)
         {
-            string resultado = binario;
+            string resultado;
             
             if (EsBinario(binario))
             {
@@ -118,6 +118,10 @@ namespace Entidades
                 }
 
                 resultado = acumulador.ToString("N4");
+            }
+            else
+            {
+                resultado = "Valor inválido";
             }
 
             return resultado;
@@ -142,6 +146,7 @@ namespace Entidades
             {
                 stringBinario = "0";
             }
+
             return stringBinario;
         }
 
@@ -152,12 +157,13 @@ namespace Entidades
         /// <returns>ERROR: Valor inválido; OK: String binario</returns>
         public static string DecimalBinario(string numero)
         {
-
             string retorno = "Valor inválido";
+
             if (double.TryParse(numero,out double doubleNumero) && !EsBinario(numero))
             {
                 retorno = DecimalBinario(doubleNumero);
             }
+
             return retorno;
         }
         #endregion
@@ -205,11 +211,17 @@ namespace Entidades
         /// <returns>Si n2 es 0, retorna 0. Sino, retorna n1/n2</returns>
         public static double operator / (Numero n1, Numero n2)
         {
-            double resultado = double.MinValue;
+            double resultado;
+
             if (n2.numero != 0)
             {
                 resultado = n1.numero / n2.numero;
             }
+            else
+            {
+                resultado = double.MinValue;
+            }
+
             return resultado;
         }
         #endregion

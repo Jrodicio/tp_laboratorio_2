@@ -16,7 +16,6 @@ namespace EntidadesAbstractas
         private string nombre;
         #endregion
 
-
         #region Propiedades
         /// <summary>
         /// GET y SET del atributo apellido de la persona validado.

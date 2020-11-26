@@ -10,23 +10,6 @@ namespace Entidades
     {
 
         /// <summary>
-        /// Valida el operador. En caso de no ser válido, retorna "+".
-        /// </summary>
-        /// <param name="operador">Operador a analizar</param>
-        /// <returns>ERROR: "+"; OK: Operador validado</returns>
-        private static string ValidarOperador(char operador)
-        {
-            string retorno = "+";
-
-            if (operador == '-' || operador == '/' || operador == '*')
-            {
-                retorno = operador.ToString();
-            }
-
-            return retorno;
-        }
-
-        /// <summary>
         /// Realiza el calculo especificado en $operador entre dos datos tipo Numero.
         /// </summary>
         /// <param name="num1">Numero 1er operando</param>
@@ -47,12 +30,29 @@ namespace Entidades
                 case "-":
                     resultado = num1 - num2;
                     break;
-                case "+":
+                default:
                     resultado = num1 + num2;
                     break;
             }
 
             return resultado;
+        }
+
+        /// <summary>
+        /// Valida el operador. En caso de no ser válido, retorna "+".
+        /// </summary>
+        /// <param name="operador">Operador a analizar</param>
+        /// <returns>ERROR: "+"; OK: Operador validado</returns>
+        private static string ValidarOperador(char operador)
+        {
+            string retorno = "+";
+
+            if (operador == '-' || operador == '/' || operador == '*')
+            {
+                retorno = operador.ToString();
+            }
+
+            return retorno;
         }
     }
 }

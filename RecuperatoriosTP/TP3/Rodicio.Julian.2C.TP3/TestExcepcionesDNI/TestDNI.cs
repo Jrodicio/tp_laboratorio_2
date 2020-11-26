@@ -11,7 +11,7 @@ namespace TestExcepcionesDNI
     {
 
         [TestMethod]
-        public void DNIConCaracteres()
+        public void DNIConCaracteresInvalidosTest()
         {
 
             string dniCaracter = "50.12232";
@@ -26,7 +26,7 @@ namespace TestExcepcionesDNI
         }
 
         [TestMethod]
-        public void DNIMenor()
+        public void DNIMenorInvalidoTest()
         {
 
             string dni = "0";
@@ -42,7 +42,7 @@ namespace TestExcepcionesDNI
         }
 
         [TestMethod]
-        public void DNIMayor()
+        public void DNIMayorInvalidoTest()
         {
             string dni = "100000000";
             try
@@ -56,7 +56,7 @@ namespace TestExcepcionesDNI
         }
 
         [TestMethod]
-        public void DNIDistintaNacionalidad()
+        public void DNIDistintaNacionalidadTest()
         {
             string dni1 = "40980255";
             string dni2 = "94717549";
@@ -83,7 +83,7 @@ namespace TestExcepcionesDNI
         }
 
         [TestMethod]
-        public void DNINumerico()
+        public void DNINumericoInvalidoTest()
         {
             string dniCaracter = "40980255";
             int i = 1;

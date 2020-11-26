@@ -74,11 +74,12 @@ namespace MiCalculadora
             
             if(!char.TryParse(operador, out char charOperador))
             {
-                charOperador = ' ';
+                charOperador = '+';
             }
             
             return Calculadora.Operar(num1, num2, charOperador);
         }
+
         /// <summary>
         /// Realizá la operación seleccionada en cmbOperador, entre los valores de txtNumero1 y txtNumero2 de FormCalculadora.
         /// </summary>
@@ -92,6 +93,7 @@ namespace MiCalculadora
 
             this.lblResultado.Text = Operar(numero1, numero2, operador).ToString("N4");
         }
+
         /// <summary>
         /// Intentará convertir el valor de lblResultado a binario.
         /// </summary>
@@ -100,6 +102,7 @@ namespace MiCalculadora
         private void btnConvertirABinario_Click(object sender, EventArgs e)
         {
             string resultado = Numero.DecimalBinario(this.lblResultado.Text);
+
             if (resultado == "Valor inválido")
             {
                 MessageBox.Show("No se puede convertir a binario", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -109,6 +112,7 @@ namespace MiCalculadora
                 this.lblResultado.Text = resultado;
             }
         }
+
         /// <summary>
         /// Intentará convertir el valor de lblResultado a decimal.
         /// </summary>

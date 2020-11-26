@@ -84,7 +84,7 @@
             this.cmbOperador.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cmbOperador.Name = "cmbOperador";
             this.cmbOperador.Size = new System.Drawing.Size(48, 33);
-            this.cmbOperador.TabIndex = 2;
+            this.cmbOperador.TabIndex = 1;
             // 
             // txtNumero2
             // 
@@ -94,7 +94,7 @@
             this.txtNumero2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtNumero2.Name = "txtNumero2";
             this.txtNumero2.Size = new System.Drawing.Size(140, 32);
-            this.txtNumero2.TabIndex = 3;
+            this.txtNumero2.TabIndex = 2;
             // 
             // btnOperar
             // 
@@ -108,7 +108,7 @@
             this.btnOperar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnOperar.Name = "btnOperar";
             this.btnOperar.Size = new System.Drawing.Size(142, 39);
-            this.btnOperar.TabIndex = 4;
+            this.btnOperar.TabIndex = 3;
             this.btnOperar.Text = "Operar";
             this.btnOperar.UseVisualStyleBackColor = false;
             this.btnOperar.Click += new System.EventHandler(this.btnOperar_Click);
@@ -125,7 +125,7 @@
             this.btnLimpiar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(101, 39);
-            this.btnLimpiar.TabIndex = 5;
+            this.btnLimpiar.TabIndex = 4;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = false;
             this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
@@ -142,7 +142,7 @@
             this.btnCerrar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(142, 39);
-            this.btnCerrar.TabIndex = 6;
+            this.btnCerrar.TabIndex = 5;
             this.btnCerrar.Text = "Cerrar";
             this.btnCerrar.UseVisualStyleBackColor = false;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
@@ -159,7 +159,7 @@
             this.btnConvertirABinario.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnConvertirABinario.Name = "btnConvertirABinario";
             this.btnConvertirABinario.Size = new System.Drawing.Size(198, 39);
-            this.btnConvertirABinario.TabIndex = 7;
+            this.btnConvertirABinario.TabIndex = 6;
             this.btnConvertirABinario.Text = "Convertir a binario";
             this.btnConvertirABinario.UseVisualStyleBackColor = false;
             this.btnConvertirABinario.Click += new System.EventHandler(this.btnConvertirABinario_Click);
@@ -176,7 +176,7 @@
             this.btnConvertADecimal.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnConvertADecimal.Name = "btnConvertADecimal";
             this.btnConvertADecimal.Size = new System.Drawing.Size(196, 39);
-            this.btnConvertADecimal.TabIndex = 8;
+            this.btnConvertADecimal.TabIndex = 7;
             this.btnConvertADecimal.Text = "Convertir a decimal";
             this.btnConvertADecimal.UseVisualStyleBackColor = false;
             this.btnConvertADecimal.Click += new System.EventHandler(this.btnConvertADecimal_Click);
